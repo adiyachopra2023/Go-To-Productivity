@@ -1,0 +1,76 @@
+.clock-container {
+    position: absolute;
+    top: 90px;
+    right: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eadcc3;
+    padding: 20px;
+    border-radius:6px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .greeting-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .greeting {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(117, 102, 82);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+  .flap-container {
+    display: flex;
+  }
+
+  .flap {
+    width: 50px;
+    height: 70px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    animation: flip 1s infinite alternate;
+  }
+
+  .flap2{
+    width: 10px;
+    height: 70px;
+    background-color: #eadcc3;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    animation: flip 1s infinite alternate;
+  }
+
+  .flap3{
+    width: 50px;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eadcc3;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    animation: flip 1s infinite alternate;
+  }
+  
+  

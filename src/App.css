@@ -1,0 +1,30 @@
+.body-container {
+  text-align: center;
+  background-color: rgb(98, 71, 47);
+  background-image: url('./bg1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-top: -22px;
+}
+
+.app-header {
+  background-color: rgb(117, 102, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: beige;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  margin: 0;
+}
+
+.header{
+  color:#eadcc3;
+  text-shadow: 0 2px 2px;
+  text-align: center;
+  font-size: 24;
+}
